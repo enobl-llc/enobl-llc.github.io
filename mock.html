@@ -260,7 +260,7 @@
 
     @media screen and (max-width: 479px) {
       h2 { font-size: 30px; line-height: 40px; }
-      .hero { padding: calc(2vh + 100px) 40px 9vh; }
+      .hero { padding: 100px 40px 9vh; }
       .wrapper-title { padding: 0; }
       .title-clip { padding-right: 0; font-size: 1.2em; }
       /* Shrinks only when the longest word would otherwise overflow the screen. */
@@ -272,8 +272,9 @@
     .wrapper.light .project-description { color: #4b5668; }
     .project-info { padding: 0; }
       .wrapper { flex: 0 0 auto; }
-      .navbar { padding-top: 2vh; text-align: center; }
-      .brand { width: 100%; height: 80px; float: none; justify-content: center; }
+      .navbar { padding: 24px 40px 0; }
+      .brand { height: auto; float: none; justify-content: flex-start; }
+      .brand img { height: 52px; width: auto; }
       .footer { padding: 0 40px; }
       .project-title { font-weight: 900; }
     }
