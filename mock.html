@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Enobl | AI-Native Engineering, Fractional CTO &amp; Product Teams</title>
+  <meta name="description" content="Enobl is an AI-native engineering and product team. Fractional CTOs, engineers and product leads who connect your data, automate operations, build analytics and ship AI-powered software. Monaco, France and the US.">
+  <link rel="canonical" href="https://www.enobl.com/">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#2B3950">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Enobl">
+  <meta property="og:url" content="https://www.enobl.com/">
+  <meta property="og:title" content="Enobl | AI-Native Engineering, Fractional CTO &amp; Product Teams">
+  <meta property="og:description" content="AI-native engineering, data and product leadership. We were building AI systems before it was a trend. Monaco · France · USA.">
+  <meta property="og:image" content="https://www.enobl.com/assets/meta.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Enobl — custom software development">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Enobl | AI-Native Engineering, Fractional CTO &amp; Product Teams">
+  <meta name="twitter:description" content="AI-native engineering, data and product leadership. We were building AI systems before it was a trend. Monaco · France · USA.">
+  <meta name="twitter:image" content="https://www.enobl.com/assets/meta.png">
+
+  <link rel="icon" href="/assets/email-favicon-photo.png" type="image/png">
+  <link rel="apple-touch-icon" href="/assets/webclip.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;700;900&display=swap" rel="stylesheet">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "@id": "https://www.enobl.com/#organization",
+    "name": "Enobl",
+    "legalName": "Enobl LLC",
+    "url": "https://www.enobl.com/",
+    "logo": "https://www.enobl.com/assets/enobl-logo-v2.png",
+    "image": "https://www.enobl.com/assets/meta.png",
+    "email": "contact@enobl.com",
+    "description": "AI-native engineering and product team providing fractional CTO, AI integration, data and analytics, and custom software development services.",
+    "areaServed": "Worldwide",
+    "knowsAbout": ["Custom software development", "Fractional CTO", "Engineering management", "Product management", "UX/UI design", "Web applications", "Mobile applications", "E-commerce"],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Services",
+      "itemListElement": [
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Custom Software Development"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "AI Integration, Data & Analytics"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "UX/UI, Product & Project Management"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "CTO, Architecture & Engineering Management"}}
+      ]
+    }
+  }
+  </script>
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    html { height: 100%; -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      min-height: 100%;
+      background-color: #fff;
+      font-family: Inter, sans-serif;
+      font-size: 14px;
+      line-height: 16px;
+      color: #2B3950;
+    }
+    img { max-width: 100%; vertical-align: middle; display: inline-block; border: 0; }
+    a { color: inherit; text-decoration: none; background-color: transparent; }
+    a:active, a:hover { outline: 0; }
+    h1, h2, h3 { font-family: Inter, sans-serif; color: #2B3950; }
+    h2 { margin: 20px 0 30px; font-size: 32px; line-height: 50px; font-weight: 900; }
+    p {
+      margin: 0 0 20px;
+      font-family: Inter, sans-serif;
+      color: grey;
+      font-size: 16px;
+      line-height: 28px;
+      font-weight: 300;
+    }
+
+    /* Header / logo */
+    .navbar {
+      position: absolute;
+      z-index: 1000;
+      width: 100%;
+      padding: 5vh 5vw 0;
+      background-color: transparent;
+    }
+    .navbar::after { content: ""; display: table; clear: both; }
+    .brand {
+      position: relative;
+      float: left;
+      display: flex;
+      height: 90px;
+      align-items: center;
+    }
+    .brand img { height: 75px; width: auto; }
+
+    /* Hero */
+    .hero {
+      position: fixed;
+      display: flex;
+      width: 100%;
+      min-height: 100vh;
+      padding-top: calc(5vh + 110px); /* keeps the headline clear of the logo */
+      padding-bottom: 10vh;
+      justify-content: center;
+      align-items: flex-start;
+      background-color: #fff;
+    }
+    .arrow {
+      position: absolute;
+      left: 0; right: 0; bottom: 0;
+      display: block;
+      margin: 0 auto 40px;
+    }
+    .wrapper-title {
+      overflow: hidden;
+      width: 100%;
+      margin-top: auto; /* sits at the bottom when there is room, never under the logo */
+      padding: 0 5vw;
+    }
+    .title-clip {
+      position: relative;
+      overflow: hidden;
+      padding-right: 10vw;
+      padding-bottom: 10px;
+      font-size: 18px;
+      line-height: 18px;
+      font-weight: 700;
+    }
+    .main-h1 {
+      position: relative;
+      margin: 0;
+      font-size: 10vh;
+      line-height: 10vh;
+      font-weight: 700;
+      color: #2B3950;
+    }
+    .home-subhead {
+      display: flex;
+      width: 30vw;
+      margin-top: 30px;
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+    /* Services */
+    .section {
+      position: relative;
+      top: 100vh;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      justify-content: space-between;
+      background-color: #dcdee0;
+    }
+    .wrapper {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      align-items: stretch;
+      background-color: #fff;
+    }
+    .column {
+      overflow: visible;
+      flex: 1;
+      background-position: 100% 50%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+    .column.development { background-image: url("/assets/bg-development.svg"); }
+    .column.design { background-image: url("/assets/bg-product.svg"); }
+    .column.cto { background-image: url("/assets/bg-architecture-light.svg"); }
+    .column.ai { background-image: url("/assets/bg-ai-systems-light.svg"); }
+    .panel {
+      display: flex;
+      width: 50%;
+      min-height: 100vh;
+      padding-right: 10vw;
+      padding-left: 15vw;
+      align-items: center;
+      flex: 0 0 auto;
+      background-color: rgba(47, 57, 80, 0.55);
+      color: #fff;
+    }
+    .wrapper.light .panel { background-color: rgba(255, 255, 255, 0.62); color: #2B3950; }
+    .wrapper.light .project-title { color: #2B3950; }
+    .wrapper.light .project-description { color: #4b5668; }
+    .project-info {
+      position: relative;
+      z-index: 20;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .label {
+      position: relative;
+      margin: 20px 0 0;
+      color: #11C6FF;
+      font-size: 25px;
+      line-height: 60px;
+      font-weight: 200;
+    }
+    .project-title { color: #fff; }
+    .project-description { color: #fff; font-size: 18px; }
+
+    /* Footer */
+    .footer {
+      width: 100%;
+      padding: 0 5vw;
+      background-color: #fafafa;
+    }
+    .footer-inner {
+      display: flex;
+      flex-direction: column;
+      width: 90%;
+      padding: 90px 0;
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+    .logo-footer { margin-bottom: 30px; }
+    .small-p { color: #b8b8b8; font-size: 14px; line-height: 24px; font-weight: 400; }
+
+    @media screen and (max-width: 991px) {
+      a { margin-bottom: 20px; }
+      .hero { padding-left: 0; justify-content: flex-start; }
+      .wrapper-title { width: 100vw; }
+      .section { justify-content: flex-start; }
+      .main-h1 { font-size: min(5em, 9vh); line-height: 1.15; }
+      .panel { width: auto; padding-right: 0; padding-left: 0; }
+      .home-subhead { width: 50vw; }
+      .wrapper.light .panel { background-color: rgba(255, 255, 255, 0.62); color: #2B3950; }
+    .wrapper.light .project-title { color: #2B3950; }
+    .wrapper.light .project-description { color: #4b5668; }
+    .project-info { width: 100%; padding: 10vh 5vw; }
+      .wrapper { flex-direction: column-reverse; }
+      .footer-inner { width: auto; }
+    }
+
+    @media screen and (max-width: 767px) {
+      .main-h1 { font-size: 3em; line-height: 8vh; }
+      .panel { width: 100%; min-height: auto; }
+      .column { width: 100%; flex: 0 auto; background-attachment: scroll; }
+      .navbar { display: block; padding: 5vh 5vw 0; }
+      .brand { height: auto; margin-bottom: 0; }
+    }
+
+    @media screen and (max-width: 479px) {
+      h2 { font-size: 30px; line-height: 40px; }
+      .hero { padding: calc(2vh + 100px) 40px 9vh; }
+      .wrapper-title { padding: 0; }
+      .title-clip { padding-right: 0; font-size: 1.2em; }
+      /* Shrinks only when the longest word would otherwise overflow the screen. */
+      .main-h1 { margin-top: 0; padding-top: 0; font-size: min(3em, calc(14vw - 12px)); line-height: 1.29; font-weight: 900; }
+      .home-subhead { width: auto; }
+      .panel { padding: 60px 40px; }
+      .wrapper.light .panel { background-color: rgba(255, 255, 255, 0.62); color: #2B3950; }
+    .wrapper.light .project-title { color: #2B3950; }
+    .wrapper.light .project-description { color: #4b5668; }
+    .project-info { padding: 0; }
+      .wrapper { flex: 0 0 auto; }
+      .navbar { padding-top: 2vh; text-align: center; }
+      .brand { width: 100%; height: 80px; float: none; justify-content: center; }
+      .footer { padding: 0 40px; }
+      .project-title { font-weight: 900; }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="navbar">
+    <a href="https://www.enobl.com/" class="brand" aria-label="Enobl home">
+      <img src="/assets/enobl-logo-v2.png" alt="Enobl logo" width="75" height="75">
+    </a>
+  </header>
+
+  <section class="hero" aria-label="Introduction">
+    <img src="/assets/63725ec74ca07b6eb9aeee7c_arrow.svg" alt="" class="arrow" width="9" height="40" aria-hidden="true">
+    <div class="wrapper-title">
+      <div class="title-clip">
+        <h1 class="main-h1">AI-Native Engineering &amp; Product Leadership.</h1>
+      </div>
+      <div class="home-subhead">
+        <p>We were building AI systems before it was a trend. Enobl is a senior engineering and product team that embeds as your fractional CTO, engineers and product leads to connect your data, automate your operations and ship AI-powered software in weeks, not quarters. Decades of experience shipping real products. Bases in Monaco, France and the US, clients worldwide.</p>
+      </div>
+    </div>
+  </section>
+
+  <main class="section" id="services">
+    <article class="wrapper">
+      <div class="column development">
+        <div class="panel">
+          <div class="project-info">
+            <p class="label">Development</p>
+            <h2 class="project-title">Custom Software, Built 10x Faster</h2>
+            <p class="project-description">We turn ideas and business requirements into production-grade software, tailored to your needs, budget and timeline. Our AI-augmented engineering workflow means an MVP, an internal tool or a full product ships at a fraction of the traditional cost and time, without cutting corners on architecture, security or scalability.</p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="wrapper light">
+      <div class="column ai">
+        <div class="panel">
+          <div class="project-info">
+            <p class="label">AI Systems</p>
+            <h2 class="project-title">AI for Business Systems &amp; Analytics</h2>
+            <p class="project-description">Most businesses don't need a chatbot. They need their databases connected, their reporting automated and their teams freed from manual work. We integrate AI into the systems you already run: unify your data, build live analytics dashboards, automate document and workflow processing, and deploy LLM-powered tools with real evaluation, privacy and cost controls. We've shipped LLM infrastructure, AI deal-sourcing and data platforms for real companies. We're practitioners, not tourists.</p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="wrapper">
+      <div class="column design">
+        <div class="panel">
+          <div class="project-info">
+            <p class="label">Design &amp; Manage</p>
+            <h2 class="project-title">Product, UX &amp; Delivery</h2>
+            <p class="project-description">One team runs the whole lifecycle: discovery, UX/UI, build, launch and maintenance. We work in the open, with clear priorities, weekly demos and no surprises, so you always know what's shipping and why.</p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="wrapper light">
+      <div class="column cto">
+        <div class="panel">
+          <div class="project-info">
+            <p class="label">Leadership</p>
+            <h2 class="project-title">Fractional CTO &amp; Architecture</h2>
+            <p class="project-description">We've built and run systems used by millions. We take charge of, or advise on, the engineering decisions that matter: data architecture, AI readiness, model and vendor selection, build-vs-buy, security and cost. The result is a product that stays fast, scalable and ready for what comes next.</p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        <img src="/assets/enobl-logo-v3.png" alt="Enobl" class="logo-footer" width="130" height="46">
+        <p class="small-p">Enobl. AI-native software engineering, data and product leadership.<br>Monaco &middot; France &middot; USA<br>Tell us about your project: <a href="mailto:contact@enobl.com">contact@enobl.com</a></p>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>
