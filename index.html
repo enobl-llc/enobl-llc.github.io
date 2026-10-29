@@ -179,22 +179,10 @@
       background-repeat: no-repeat;
       background-attachment: fixed;
     }
-    .column.development {
-      background-image: url("/assets/services-development.jpg");
-      background-image: image-set(url("/assets/services-development.webp") type("image/webp"), url("/assets/services-development.jpg") type("image/jpeg"));
-    }
-    .column.design {
-      background-image: url("/assets/services-design-management.jpg");
-      background-image: image-set(url("/assets/services-design-management.webp") type("image/webp"), url("/assets/services-design-management.jpg") type("image/jpeg"));
-    }
-    .column.cto {
-      background-image: url("/assets/services-cto-architecture.jpg");
-      background-image: image-set(url("/assets/services-cto-architecture.webp") type("image/webp"), url("/assets/services-cto-architecture.jpg") type("image/jpeg"));
-    }
-    .column.ai {
-      background-image: url("/assets/services-ai-systems.jpg");
-      background-image: image-set(url("/assets/services-ai-systems.webp") type("image/webp"), url("/assets/services-ai-systems.jpg") type("image/jpeg"));
-    }
+    .column.development { background-image: url("/assets/bg-development.svg"); }
+    .column.design { background-image: url("/assets/bg-product.svg"); }
+    .column.cto { background-image: url("/assets/bg-architecture.svg"); }
+    .column.ai { background-image: url("/assets/bg-ai-systems.svg"); }
     .panel {
       display: flex;
       width: 50%;
@@ -203,7 +191,7 @@
       padding-left: 15vw;
       align-items: center;
       flex: 0 0 auto;
-      background-color: rgba(47, 57, 80, 0.75);
+      background-color: rgba(47, 57, 80, 0.55);
       color: #fff;
     }
     .project-info {
@@ -247,11 +235,7 @@
       .wrapper-title { width: 100vw; }
       .section { justify-content: flex-start; }
       .main-h1 { font-size: min(5em, 9vh); line-height: 1.15; }
-      .column.ai {
-      background-image: url("/assets/services-ai-systems.jpg");
-      background-image: image-set(url("/assets/services-ai-systems.webp") type("image/webp"), url("/assets/services-ai-systems.jpg") type("image/jpeg"));
-    }
-    .panel { width: auto; padding-right: 0; padding-left: 0; }
+      .panel { width: auto; padding-right: 0; padding-left: 0; }
       .home-subhead { width: 50vw; }
       .project-info { width: 100%; padding: 10vh 5vw; }
       .wrapper { flex-direction: column-reverse; }
@@ -260,11 +244,7 @@
 
     @media screen and (max-width: 767px) {
       .main-h1 { font-size: 3em; line-height: 8vh; }
-      .column.ai {
-      background-image: url("/assets/services-ai-systems.jpg");
-      background-image: image-set(url("/assets/services-ai-systems.webp") type("image/webp"), url("/assets/services-ai-systems.jpg") type("image/jpeg"));
-    }
-    .panel { width: 100%; min-height: auto; }
+      .panel { width: 100%; min-height: auto; }
       .column { width: 100%; flex: 0 auto; background-attachment: scroll; }
       .navbar { display: block; padding: 5vh 5vw 0; }
       .brand { height: auto; margin-bottom: 0; }
@@ -278,11 +258,7 @@
       /* Shrinks only when the longest word would otherwise overflow the screen. */
       .main-h1 { margin-top: 0; padding-top: 0; font-size: min(3em, calc(14vw - 12px)); line-height: 1.29; font-weight: 900; }
       .home-subhead { width: auto; }
-      .column.ai {
-      background-image: url("/assets/services-ai-systems.jpg");
-      background-image: image-set(url("/assets/services-ai-systems.webp") type("image/webp"), url("/assets/services-ai-systems.jpg") type("image/jpeg"));
-    }
-    .panel { padding: 60px 40px; }
+      .panel { padding: 60px 40px; }
       .project-info { padding: 0; }
       .wrapper { flex: 0 0 auto; }
       .navbar { padding-top: 2vh; text-align: center; }
